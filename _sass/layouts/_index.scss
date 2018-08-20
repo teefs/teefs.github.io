@@ -24,7 +24,8 @@
     h3,
     h4,
     h5 {
-        @extend .header-txt-shadow;
+        text-shadow: none;
+		color: #f4e661;
     }
 
     p:last-child {

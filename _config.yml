@@ -14,8 +14,7 @@ theme_settings:
   gravatar: # Email MD5 hash
 
   # Header and footer text
-  header_text: >
-    <font color=#f4e661>Random Musings</font>
+  header_text: Random Musings
   header_text_feature_image: "assets/img/background.JPG"
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
