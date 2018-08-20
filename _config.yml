@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "crimsonch.in"
+url: ""
 title: "Nicholas Chin"
 description: "A site for my engineering & hobby projects" # used by search engines
 
