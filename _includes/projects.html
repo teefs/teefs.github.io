@@ -1,0 +1,16 @@
+<!-- projects Grid Section -->
+
+<div class="projects-grid">
+    {% for item in site.projects %}
+    <div class="projects-cell">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="projects-link" data-keyboard="true">
+            <div class="caption" title="{{ item.title }}">
+                <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+            </div>
+            <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="">
+        </a>
+    </div>
+    {% endfor %}
+</div>
