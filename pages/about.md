@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img:
-tags: [About, Archive]
+tags:
 img: "assets/img/NicholasChin.jpg"
 ---
 
