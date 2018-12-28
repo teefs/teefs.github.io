@@ -15,7 +15,7 @@ The pressure plate is made with a force sensitive resistor (FSR) pad that has be
 The sensor is places between ground and an Arduino input with it's internal 20k Ohm pull-up enabled. The resistor divider created pulls the input high when unloaded and low when loaded.
 
 The Rebel XSi uses a Tip, Ring, Sleeve (TRS) plug as it's remote shutter port. The signals on the TRS plug are as follows: Shutter on the tip, Focus on the ring, and Ground on the sleeve. The remote shutter circuit is shown below.
-![image]({{ site.baseurl }}/{{ remote.img }})
 
+![image]({{ site.baseurl }}/{{ remote.img }})
 
 This project could easily be accomplished without the Arduino by powering the resistor divider in the pressure plate circuit with say a 9V battery, and then triggering the shutter circuit's NMOS directly. The Arduino, however, allows for easy extension of functionality. In the future the photobooth could be reconfigured to use external flashes or a camera that uses a Bluetooth or IR based remote shutter control. The Arduino will allow easy setting of flash delay or connecting to the camera's remote shutter.
