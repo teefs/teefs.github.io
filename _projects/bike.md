@@ -2,7 +2,12 @@
 layout: post
 title: Bike Photobooth
 img: "assets/img/projects/bike/IMG_5574.jpg"
-remote: "assets/img/projects/bike/remoteshutter.png"
+img2: "assets/img/projects/bike/IMG_5578.jpg"
+img3: "assets/img/projects/bike/IMG_5580.jpg"
+img4: "assets/img/projects/bike/IMG_5581.jpg"
+remotecircuit: "assets/img/projects/bike/remoteshutter.png"
+remote: "assets/img/projects/bike/shutter.jpg"
+plate: "assets/img/projects/bike/plate.jpg"
 tags: [Embedded, Bicycles, Photography]
 ---
 ![image]({{ site.baseurl }}/{{ page.img }})
@@ -12,10 +17,20 @@ The photobooth works by placing a pressure plate in the path of a cyclist. When 
 
 The pressure plate is made with a force sensitive resistor (FSR) pad that has been ruggedized by sandwiching it between pieces of Ikea's flexible cutting board. The FSR varies between ~1M Ohm when unloaded to ~250 Ohm when loaded with mass of 10kg or greater.
 
+![image]({{ site.baseurl }}/{{ page.plate }})
+
 The sensor is places between ground and an Arduino input with it's internal 20k Ohm pull-up enabled. The resistor divider created pulls the input high when unloaded and low when loaded.
 
 The Rebel XSi uses a Tip, Ring, Sleeve (TRS) plug as it's remote shutter port. The signals on the TRS plug are as follows: Shutter on the tip, Focus on the ring, and Ground on the sleeve. The remote shutter circuit is shown below.
 
-![image]({{ site.baseurl }}/{{ page.remote }})
+![image]({{ site.baseurl }}/{{ page.remotecircuit }})![image]({{ site.baseurl }}/{{ page.remote }})
 
-This project could easily be accomplished without the Arduino by powering the resistor divider in the pressure plate circuit with say a 9V battery, and then triggering the shutter circuit's NMOS directly. The Arduino, however, allows for easy extension of functionality. In the future the photobooth could be reconfigured to use external flashes or a camera that uses a Bluetooth or IR based remote shutter control. The Arduino will allow easy setting of flash delay or connecting to the camera's remote shutter.
+This project could easily be accomplished without a microcontroller, but the Arduino allows more flexibility in that it can allow multiple pictures, with variable timing between them, to be taken and for multiple remote flashes to be added to the system.
+
+Below are some more shots taken from the first day of testing.
+
+![image]({{ site.baseurl }}/{{ page.img2 }})
+
+![image]({{ site.baseurl }}/{{ page.img3 }})
+
+![image]({{ site.baseurl }}/{{ page.img4 }})
