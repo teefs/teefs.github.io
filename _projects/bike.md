@@ -25,7 +25,7 @@ The pressure plate is made with a force sensitive resistor (FSR) pad that has be
 The Rebel XSi uses a Tip, Ring, Sleeve (TRS) plug as it's remote shutter port. The signals on the TRS plug are as follows: Shutter on the tip, Focus on the ring, and Ground on the sleeve. The remote shutter circuit is shown below.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/teefs/teefs.github.io/master/assets/img/projects/bike/remoteshutter.png""/></p>
+  <img src="https://raw.githubusercontent.com/teefs/teefs.github.io/master/assets/img/projects/bike/remoteshutter.png"/></p>
 
 This project could easily be accomplished without a microcontroller, but the Arduino allows more flexibility in that it can allow multiple pictures, with variable timing between them, to be taken and for multiple remote flashes to be added to the system.
 
