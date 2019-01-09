@@ -10,7 +10,9 @@ remote: "assets/img/projects/bike/shutter.jpg"
 plate: "assets/img/projects/bike/plate.jpg"
 tags: [Embedded, Bicycles, Photography]
 ---
-<div align="center">![image]({{ site.baseurl }}/{{ page.img }})</div>
+<p align="center">
+![image]({{ site.baseurl }}/{{ page.img }})
+</p>
 
 This project combines my hobbies of cycling and photography. The aim of this project is to reliably capture action shots of cyclists by automating.
 
