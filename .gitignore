@@ -21,4 +21,3 @@ Gemfile.lock
 .gems
 jekyll-theme-type-on-strap.gemspec
 node_modules/*
-_projects/sousvide.md
