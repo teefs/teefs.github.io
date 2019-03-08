@@ -1,13 +1,7 @@
 ---
 layout: post
 title: Bike Photobooth
-img: "assets/img/projects/bike/IMG_5574.jpg"
-img2: "assets/img/projects/bike/IMG_5578.jpg"
-img3: "assets/img/projects/bike/IMG_5580.jpg"
-img4: "assets/img/projects/bike/IMG_5581.jpg"
-remotecircuit: "assets/img/projects/bike/remoteshutter.png"
-remote: "assets/img/projects/bike/shutter.jpg"
-plate: "assets/img/projects/bike/plate.jpg"
+img: "assets/img/projects/bike/bike_splash.jpg"
 tags: [Embedded, Bicycles, Photography]
 ---
 <p align="center">
